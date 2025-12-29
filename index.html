@@ -1,555 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Alvin Briones</title>
-
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="Alvin Briones" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alvin Briones — Software Engineer</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-
-    <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css" />
   </head>
 
-  <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
-    <!-- MENU BAR -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a href="#intro" class="nav-link smoothScroll">Introduction</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="#about" class="nav-link smoothScroll">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a href="#experience" class="nav-link smoothScroll">Experience</a>
-            </li>
-
-            <!-- <li class="nav-item">
-              <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
-            </li>
-
-            <li class="nav-item">
-              <a href="#contact" class="nav-link smoothScroll">Contact</a>
-            </li> -->
-          </ul>
+  <body>
+    <header class="site-header py-4 bg-light">
+      <div class="container d-flex align-items-center">
+        <div class="mr-4">
+          <img src="images/image1.JPG" alt="Alvin Briones" class="rounded-circle" style="width:96px;height:96px;object-fit:cover;" />
         </div>
-      </div>
-    </nav>
-
-    <!-- HERO -->
-    <section
-      class="hero d-flex flex-column justify-content-center align-items-center"
-      id="intro">
-      <div class="container">
-        <div class="row">
-          <div class="mx-auto col-lg-5 col-md-5 col-10">
-            <img
-              src="images/image1.JPG"
-              class="img-fluid"
-              alt="Alvin Briones" />
-          </div>
-
-          <div
-            class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
-            <div class="hero-text">
-              <h1 class="hero-title">
-                👋 Hello, I'm Alvin a Software Developer
-              </h1>
-            </div>
-          </div>
+        <div>
+          <h1 class="mb-0">Alvin Briones</h1>
+          <p class="mb-0 text-muted">Software Engineer — Full-stack (.NET / Angular)</p>
+          <small class="text-muted"> <a href="mailto:dev.alvinbriones@gmail.com">dev.alvinbriones@gmail.com</a> • +63 995 3030 605 • Cebu, PH</small>
         </div>
+        <nav class="ml-auto d-none d-md-block">
+          <a href="#about" class="mr-3">About</a>
+          <a href="#skills" class="mr-3">Skills</a>
+          <a href="#experience" class="mr-3">Experience</a>
+          <a href="#projects" class="mr-3">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section class="about section-padding" id="about">
-      <div class="container">
+    <main class="container py-5">
+      <section id="about" class="mb-5">
+        <h2>About Me</h2>
+        <p>
+          I'm Alvin, a Software Engineer with years of experience in the field. My track record includes successfully launching multiple projects and demonstrating my prowess across the entire product development cycle. I possess a broad skill set encompassing full-stack development, working adeptly with technologies like .Net (C#), .NET Core (C#), Azure, Angular.
+        </p>
+      </section>
+
+      <section id="skills" class="mb-5">
+        <h2>Technical Skills</h2>
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-12">
-            <h3 class="mb-4">About Me</h3>
-
-            <p>
-              I'm Alvin, a seasoned Software Engineer with 8 years in the field.
-              My track record includes successfully launching multiple projects,
-              demonstrating my prowess across the entire product development
-              cycle. I possess a broad skill set encompassing full-stack
-              development, working adeptly with technologies like Full Stack,
-              .Net (C#), .NET Core (C#), and Angular. Leveraging strong
-              communication and collaboration skills, I add substantial value to
-              teams. My adaptability and dedication drive project completion
-              ahead of schedule. Proficient in C#, .NET Core, Angular,
-              TypeScript, and more, I'm well-prepared to make meaningful
-              contributions to your development endeavors.
-            </p>
-          </div>
-
-          <div class="col-lg-5 mx-auto col-md-6 col-12">
-            <img
-              src="images/true-agency.jpg"
-              class="about-image img-fluid"
-              alt="Ben's Resume HTML Template" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Work Experience -->
-    <section class="experience section-padding" id="experience">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="row previous-project-header">
-              <strong><h2>Previous Projects</h2></strong>
-            </div>
-            <div class="row about-third">
-              <div class="col-lg-12 col-md-12 col-12 experience-section">
-                <h3 class="company">CardExchangeCloud</h3>
-                <p>
-                  This project is designed for managing and creating student IDs
-                  within universities. The admin has the ability to perform
-                  actions such as deletion, updating, and blocking of student
-                  cards. The project comprises three separate components: the
-                  controller, admin center, and stand application. The
-                  controller project is utilized by the admin to create, manage,
-                  and block student cards. Within the controller page, the photo
-                  uploaded by the user in either the Stand application or
-                  Controller is managed to ensure it meets the necessary rules.
-                  The admin can approve photos either manually or automatically
-                  if they match the previous photo or document ID uploaded. The
-                  Admin Center serves as a tool for admins to configure settings
-                  for both the Controller and Stand application. It also
-                  functions as a user management system for the Controller,
-                  allowing for the assignment of privileges. The Stand
-                  application serves as the virtual ID for students and allows
-                  them to update their photo and receive notifications. It will
-                  also utilize a new SDK that enables users to open doors by
-                  presenting their phone to the readers.
-                </p>
-                <span><b>Responsibilities:</b></span>
-                <ul>
-                  <li>
-                    Implementation of business rules to automate tasks based on
-                    certain conditions.
-                  </li>
-                  <li>
-                    Photo approval page for Controller. This page allows the
-                    admin to manage the photos uploaded by the user in Stand or
-                    Controller.
-                  </li>
-                  <li>
-                    Fixing the issue of exporting photos in bulk, which caused
-                    the Controller to crash due to high usage of disk and memory
-                    in Microsoft Azure. This resulted in other users of the
-                    application not being able to access their Controller if
-                    someone is exporting large photos.
-                  </li>
-                  <li>
-                    Fixing the issue with the Stand Application and HID Origo
-                    SDK, where the app could not communicate with the reader on
-                    both Android and iOS. The app can now communicate with the
-                    reader when the phone is presented to it.
-                  </li>
-                  <li>Bug fixes and improvements</li>
-                </ul>
-                <span><b>Tech Stack:</b></span>
-                <span
-                  >Angular, Typescript, C#, .Net Core, Azure Database, Android,
-                  IOS (Swift), TortoiseSVN, Agile</span
-                >
-              </div>
-              <div class="col-lg-12 col-md-12 col-12 experience-section">
-                <h3 class="company">
-                  KYOCERA DOCUMENT SOLUTIONS DEVELOPMENT PHILIPPINES INC.
-                </h3>
-                <p>
-                  <b>Project</b>: Driver and Utilities Project An app where
-                  users can change the settings, conduct firmware upgrade, check
-                  toner ink levels, and get status alert of the device remotely
-                </p>
-                <span><b>Responsibilities:</b></span>
-                <ul>
-                  <li>
-                    Actively involved in the front end and back end development
-                  </li>
-                  <li>Implemented new features</li>
-                  <li>Maintained the system and fixed bugs</li>
-                </ul>
-                <span><b>Tech Stack:</b></span>
-                <span
-                  >C#, TypeScript, Angular JS, HTML/CSS, Firebird, MSSQL,
-                  Git</span
-                >
-              </div>
-              <div class="col-lg-12 col-md-12 col-12 experience-section">
-                <h3 class="company">TATE PUBLISHING AND ENTERPRISE INC.</h3>
-                <p>
-                  A revenue-cost system for the company to track down how much
-                  they spend on printing books and how much they earn for the
-                  specific range.
-                </p>
-                <span><b>Responsibilities:</b></span>
-                <ul>
-                  <li>
-                    Sole developer responsible for re-coding and re-layout of
-                    the old online bookstore from scratch (from UI to backend).
-                  </li>
-                  <li>
-                    Maintained and enhanced the main system of the company.
-                  </li>
-                  <li>
-                    Assigned on creating budget for the whole month and
-                    calculated how much budget limit for a day
-                  </li>
-                  <li>
-                    Also assigned in making visual graphs for easy viewing of
-                    the data.
-                  </li>
-                </ul>
-                <span><b>Tech Stack:</b></span>
-                <span
-                  >PHP(CodeIgniter), JQuery, JavaScript, CSS/HTML, MySQL,
-                  Git</span
-                >
-              </div>
-              <div class="col-lg-12 col-md-12 col-12 experience-section">
-                <h3 class="company">FORTY DEGREES CELSIUS INC.</h3>
-                <p>
-                  A variety of entertainment and social media types of sites
-                  developed for Japanese clients.
-                </p>
-                <span><b>Responsibilities:</b></span>
-                <ul>
-                  <li>
-                    Assigned in maintaining sites, implementing modifications
-                    and/or additional features based on clients requests
-                  </li>
-                  <li>
-                    Also assigned in all areas of the project from admin to
-                    client and to user side.
-                  </li>
-                </ul>
-                <span><b>Tech Stack:</b></span>
-                <span
-                  >PHP (CodeIgniter), jQuery, JavaScript, CSS/HTML, MySQL,
-                  Git</span
-                >
-              </div>
-              <div class="col-lg-12 col-md-12 col-12 experience-section">
-                <h3 class="company">LITECLOUD CORPORATION</h3>
-                <p>
-                  A system that functions as a scheduler of each lawyer and it
-                  has a virtual cabinet to mimic the physical cabinet for
-                  storage.
-                </p>
-                <span><b>Responsibilities:</b></span>
-                <ul>
-                  <li>
-                    Created cloud based web application based on ERP System
-                  </li>
-                  <li>Solely assigned in developing the scheduling feature</li>
-                  <li>Maintained and ensured functionality of the system</li>
-                </ul>
-                <span><b>Tech Stack:</b></span>
-                <span
-                  >PHP (CodeIgniter), jQuery, JavaScript, CSS/HTML, MySQL,
-                  Git</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
-
-    <!-- FAQ -->
-    <!-- <section class="faq section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-12">
-            <h3 class="mb-5">Frequently Asked Questions</h3>
-
-            <div class="accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne">
-                      Are those HTML templates absolutely free for any kind of
-                      usage?
-                    </button>
-                  </h2>
-                </div>
-
-                <div
-                  id="collapseOne"
-                  class="collapse show"
-                  aria-labelledby="headingOne"
-                  data-parent="#accordionExample">
-                  <div class="card-body">
-                    <p>
-                      Yes, they are 100% free and there is no hidden charge.
-                    </p>
-
-                    <p>They can be used for your commercial websites.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo">
-                      Can I use them as a CMS theme or a part of website
-                      builder?
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseTwo"
-                  class="collapse"
-                  aria-labelledby="headingTwo"
-                  data-parent="#accordionExample">
-                  <div class="card-body">
-                    <p>Yes, you can use them.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree">
-                      I cannot find a suitable HTML template. Can I request new
-                      template?
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseThree"
-                  class="collapse"
-                  aria-labelledby="headingThree"
-                  data-parent="#accordionExample">
-                  <div class="card-body">
-                    <p>
-                      Yes, please tell us what you need. We will try our best to
-                      fulfill it.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header" id="headingFour">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseFour"
-                      aria-expanded="false"
-                      aria-controls="collapseFour">
-                      Can I redistribute your templates?
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseFour"
-                  class="collapse"
-                  aria-labelledby="headingFour"
-                  data-parent="#accordionExample">
-                  <div class="card-body">
-                    <p>
-                      No, this is totally NOT allowed. Please do not
-                      redistribute our HTML templates.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header" id="headingFive">
-                  <h2 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#collapseFive"
-                      aria-expanded="false"
-                      aria-controls="collapseFive">
-                      How do I support Tooplate?
-                    </button>
-                  </h2>
-                </div>
-                <div
-                  id="collapseFive"
-                  class="collapse"
-                  aria-labelledby="headingFive"
-                  data-parent="#accordionExample">
-                  <div class="card-body">
-                    <p>
-                      Please spread a word about Tooplate website to your
-                      colleagues and friends.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <span class="faq-info-text"
-                >Please send us a message if you have anything to say. Send an
-                email message to
-                <strong>contact (at) tooplate (dot) com</strong></span
-              >
-            </div>
-          </div>
-          <!-- col -->
-        </div>
-        <!-- row -->
-      </div>
-      <!-- container -->
-    </section> -->
-
-    <!-- <section class="contact section-padding pt-0" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-12">
-            <form
-              action="#"
-              method="get"
-              class="contact-form webform"
-              role="form">
-              <div class="form-group d-flex flex-column-reverse">
-                <input
-                  type="text"
-                  class="form-control"
-                  name="cf-name"
-                  id="cf-name"
-                  placeholder="Your Name" />
-
-                <label for="cf-name" class="webform-label">Full Name</label>
-              </div>
-
-              <div class="form-group d-flex flex-column-reverse">
-                <input
-                  type="email"
-                  class="form-control"
-                  name="cf-email"
-                  id="cf-email"
-                  placeholder="Your Email" />
-
-                <label for="cf-email" class="webform-label">Your Email</label>
-              </div>
-
-              <div class="form-group d-flex flex-column-reverse">
-                <textarea
-                  class="form-control"
-                  rows="5"
-                  name="cf-message"
-                  id="cf-message"
-                  placeholder="Your Message"></textarea>
-
-                <label for="cf-message" class="webform-label">Message</label>
-              </div>
-
-              <button
-                type="submit"
-                class="form-control"
-                id="submit-button"
-                name="submit">
-                Send
-              </button>
-            </form>
-          </div>
-
-          <div class="mx-auto col-lg-4 col-md-6 col-12">
-            <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
-
-            <p class="mb-1">010-020-0340</p>
-
-            <p>
-              <a href="#">
-                hello@company.co
-                <i class="fas fa-arrow-right custom-icon"></i>
-              </a>
-            </p>
-
-            <ul class="social-links mt-2">
-              <li>
-                <a
-                  href="https://fb.com/tooplate"
-                  rel="noopener"
-                  class="fab fa-facebook"></a>
-              </li>
-              <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li>
-              <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li>
-              <li><a href="#" rel="noopener" class="fab fa-linkedin"></a></li>
-              <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>
+          <div class="col-md-4">
+            <h5>Languages & Frameworks</h5>
+            <ul>
+              <li>C#, .NET, .NET Core</li>
+              <li>TypeScript, Angular, AngularJS, React</li>
+              <li>SQL</li>
+              <li>Python</li>
+              <li>PHP (CodeIgniter), JavaScript, jQuery</li>
             </ul>
-
-            <p class="copyright-text mt-5 pt-3">
-              Copyright &copy; 2020 Ben Resume Page
-            </p>
-
-            <p>
-              Design:
-              <a
-                href="https://www.tooplate.com"
-                title="free HTML templates"
-                target="_blank"
-                >Tooplate</a
-              >
-            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Clouds and DevOps</h5>
+            <ul>
+              <li>Azure</li>
+              <li>Basic CI/CD pipelines</li>
+              <li>Terraform</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Platforms & Tools</h5>
+            <ul>
+              <li>Azure, MSSQL, MySQL, MongoDB</li>
+              <li>Git, TortoiseSVN</li>
+              <li>Redis</li>
+              <li>RabbitMQ</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Practices</h5>
+            <ul>
+              <li>Agile development, unit testing, CI/CD basics</li>
+            </ul>
           </div>
         </div>
+      </section>
+
+      <section id="experience" class="mb-5">
+        <h2>Professional Experience</h2>
+
+        <article class="mb-4">
+          
+          <h3 class="pb-3">CODEV PHILIPPINES | 2021 - Present</h3>
+          <h4>Kyocera International</h4>
+          
+          <ul>
+            <li>Developed a chemical import compliance system that automates checks for U.S. import regulations, ensuring accurate tracking of permits and compliance with legal requirements. This system reduced manual checks, improving efficiency and reducing risk for non-compliant imports.</li>
+            <li>Led the modernization of legacy applications, spearheading the migration to a new technology stack. Worked closely with stakeholders to rebuild key components from scratch, improving system performance, scalability, and maintainability.</li>
+            <li>Created a reusable project template for microservices architecture, streamlining the development process for new projects. This template is now used as the foundational blueprint for all new services, accelerating development cycles and ensuring consistency across the platform as the company transitions from a monolithic to a microservices-based system. </li>
+            <li>Led the design and implementation of RabbitMQ as the centralized messaging broker for email and notification services, enabling asynchronous processing, improved system reliability, and scalable message handling. Implemented message producers and consumers to decouple notification workflows, reduce API response time, and ensure fault-tolerant delivery across multiple services.</li>
+            <li>Implemented Redis as an in-memory caching layer to reduce frequent database calls, improving application performance and scalability. Designed cache strategies to store frequently accessed data, minimizing latency and optimizing overall system responsiveness.</li>
+            <li>Built an automation script to provision Azure DevOps projects, streamlining project setup and reducing manual configuration efforts. Automated creation of repositories, and baseline configurations to ensure consistency and faster development.</li>
+            <li>Built Terraform scripts to provision and manage Azure DevOps project infrastructure, enabling consistent, repeatable, and scalable environment setup through infrastructure as code.</li>
+          </ul>
+
+          <h4>CardExchangeCloud</h4>
+          <p class="text-muted">.NET Developer</p>
+          <ul>
+            <li>Architected a multi-component student ID management platform comprising administrative, control, and mobile applications.</li>
+            <li>Implemented role-based access control (RBAC), configurable approval workflows, and secure SDK-based integrations for physical access systems.</li>
+            <li>Delivered a mobile-first virtual ID solution enabling secure authentication, notifications, and campus access via mobile devices.</li>
+          </ul>
+        </article>
+
+        <article class="mb-4">
+          <h3>KYOCERA DOCUMENT SOLUTIONS DEVELOPMENT PHILIPPINES INC. | 2017-2021</h3>
+          <p class="text-muted">Software Engineer</p>
+          <ul>
+            <li>Assisted in designing and developing a remote device management system for the Driver and Utilities Project, enabling centralized control of device configuration, firmware updates, and health monitoring.</li>
+            <li>Implemented monitoring logic for consumable levels (toner and ink) and device status, supporting proactive maintenance and reduced service interruptions.</li>
+            <li>Contributed to firmware upgrade processes, including validation and error-handling mechanisms to ensure safe and consistent updates.</li>
+            <li>Integrated alerting and notification features to provide timely visibility into device status, faults, and maintenance needs.</li>
+            <li>Worked closely with QA and product teams to ensure system stability, performance, and a user-friendly experience.</li>
+          </ul>
+        </article>
+
+        <article class="mb-4">
+          <h3>TATE PUBLISHING AND ENTERPRISE INC. | 2016</h3>
+          <p class="text-muted">Application Developer</p>
+         <ul>
+          <li>Developed a revenue - cost tracking system for book production, providing financial insights for forecasting, cost control, and profitability analysis.</li>
+          <li>Modernized a legacy website by rebuilding it with updated technologies, improving performance, maintainability, and user experience.</li>
+         </ul>
+        </article>
+
+        <article class="mb-4">
+          <h3>FORTY DEGREES CELSIUS INC. | 2014 - 2016</h3>
+          <p class="text-muted">PHP Developer</p>
+          <ul>
+            <li>Designed, developed, and maintained a web-based job platform targeting women’s employment opportunities nationwide in Japan</li>
+            <li>Built features for job posting, search, and application workflows, optimized for usability and accessibility.</li>
+            <li>Implemented location-based filtering to support job discovery across all prefectures.</li>
+            <li>Collaborated with stakeholders to enhance platform functionality while supporting inclusive hiring initiatives.</li>
+          </ul>
+        </article>
+
+        <article class="mb-4">
+          <h3>LITECLOUD CORPORATION | 2014</h3>
+          <p class="text-muted">Application Developer</p>
+          <ul>
+            <li>Designed and developed a comprehensive scheduling and document management system tailored for law firms.</li>
+            <li>Implemented an integrated calendar to track each lawyer’s appointments, court schedules, and case deadlines, improving time management and case coordination.</li>
+            <li>Built a virtual filing cabinet that mirrors the structure of physical file storage, enabling secure, organized, and intuitive digital document management.</li>
+            <li>Enabled easy access to case files and documents, improving retrieval efficiency and reducing reliance on physical paperwork.</li>
+            <li>Improved overall workflow efficiency by centralizing scheduling and document storage within a single platform.</li>
+          </ul>
+      </section>
+
+      <section id="contact" class="mb-5">
+        <h2>Contact</h2>
+        <p>
+          <strong>Email:</strong> dev.alvinbriones@gmail.com<br />
+          <strong>Phone:</strong> +63 995 3030 605<br />
+          <strong>Location:</strong> Cebu, Philippines
+        </p>
+        <p>
+          <a id="download-pdf" class="btn btn-primary" href="assets/AlvinBriones.pdf" download="AlvinBriones.pdf">Download PDF</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="bg-light py-3">
+      <div class="container text-center text-muted">
+        © 2026 Alvin Briones
       </div>
-    </section> -->
-    <!-- SCRIPTS -->
+    </footer>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Download uses static PDF in assets/AlvinBriones.pdf -->
+    <script>
+      // Force download of the static PDF instead of opening it inline.
+      (function () {
+        var link = document.getElementById('download-pdf');
+        if (!link) return;
+
+        link.addEventListener('click', function (ev) {
+          ev.preventDefault();
+          var url = link.getAttribute('href');
+          if (!url) return;
+
+          // Update UI
+          var originalText = link.textContent;
+          link.textContent = 'Downloading...';
+          link.disabled = true;
+
+          // Fetch the PDF as a blob and trigger a download
+          fetch(url, { cache: 'no-store' })
+            .then(function (res) {
+              if (!res.ok) throw new Error('Network response was not ok');
+              return res.blob();
+            })
+            .then(function (blob) {
+              var blobUrl = URL.createObjectURL(blob);
+              var a = document.createElement('a');
+              a.style.display = 'none';
+              a.href = blobUrl;
+              // Use the download attribute from the original link or fallback filename
+              var filename = link.getAttribute('download') || 'AlvinBriones.pdf';
+              a.setAttribute('download', filename);
+              document.body.appendChild(a);
+              a.click();
+              // Clean up
+              setTimeout(function () {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(blobUrl);
+                link.textContent = originalText;
+                link.disabled = false;
+              }, 500);
+            })
+            .catch(function (err) {
+              console.error('Download failed', err);
+              // Fallback: open in new tab
+              window.open(url, '_blank');
+              link.textContent = originalText;
+              link.disabled = false;
+            });
+        });
+      })();
+    </script>
   </body>
 </html>
